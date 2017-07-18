@@ -1,5 +1,5 @@
-C:\Users\hasna\Desktop\Game\Game\Game\Game\bin\Debug\Game.dll
 C:\Users\hasna\Desktop\Game\Game\Game\Game\bin\Debug\Game.dll.config
+C:\Users\hasna\Desktop\Game\Game\Game\Game\bin\Debug\Game.dll
 C:\Users\hasna\Desktop\Game\Game\Game\Game\bin\Debug\Game.pdb
 C:\Users\hasna\Desktop\Game\Game\Game\Game\bin\Debug\Microsoft.ProjectOxford.Common.dll
 C:\Users\hasna\Desktop\Game\Game\Game\Game\bin\Debug\Microsoft.ProjectOxford.Emotion.dll
@@ -32,6 +32,7 @@ C:\Users\hasna\Desktop\Game\Game\Game\Game\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\Users\hasna\Desktop\Game\Game\Game\Game\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\hasna\Desktop\Game\Game\Game\Game\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\hasna\Desktop\Game\Game\Game\Game\obj\Debug\Game.csproj.App.config
+C:\Users\hasna\Desktop\Game\Game\Game\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
 C:\Users\hasna\Desktop\Game\Game\Game\Game\obj\Debug\Game.MainPage.xaml.g.cs
 C:\Users\hasna\Desktop\Game\Game\Game\Game\obj\Debug\Game.App.xaml.g.cs
 C:\Users\hasna\Desktop\Game\Game\Game\Game\obj\Debug\Game.dll

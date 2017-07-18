@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 using Microsoft.ProjectOxford.Emotion;
 using Microsoft.ProjectOxford.Emotion.Contract;
-
-
+using System.Collections.Generic;
 
 namespace Game
 {
@@ -17,6 +16,7 @@ namespace Game
         public MainPage()
         {
             InitializeComponent();
+            emotionSelection();
         }
 
         private async void loadCamera(object sender, EventArgs e)
@@ -44,6 +44,8 @@ namespace Game
                 return file.GetStream();
             });
 
+
+
             await EmotionPrediction(file);
         }
 
@@ -60,6 +62,54 @@ namespace Game
                 }
             }
 
+        }
+
+        public string RandomEmotionGenerator()
+        {
+            List<String> allEmotions = new List<string>(new string[] { "Anger", "Contempt", "Disgust", "Fear", "Happiness", "Sadness", "Surprise", "Neutral" });
+
+            Random random = new Random();
+            int randomNumber = random.Next(0, 8);
+            string testEmotion = allEmotions.ElementAt(randomNumber);
+            return testEmotion;
+        }
+
+        public void emotionSelection()
+        {
+            string testEmotion = RandomEmotionGenerator();
+
+            if (testEmotion == "Anger")
+            {
+                gameEmotion.Text = "Produce an ANGRY EXPRESSION";
+            }
+            else if (testEmotion == "Contempt")
+            {
+                gameEmotion.Text = "Produce a CONTEMPTIBLE EXPRESSION";
+            }
+            else if (testEmotion == "Disgust")
+            {
+                gameEmotion.Text = "Produce a DIGUSTED EXPRESSION";
+            }
+            else if (testEmotion == "Fear")
+            {
+                gameEmotion.Text = "Produce a FEARFUL EXPRESSION";
+            }
+            else if (testEmotion == "Happiness")
+            {
+                gameEmotion.Text = "Produce a HAPPY EXPRESSION";
+            }
+            else if (testEmotion == "Sadness")
+            {
+                gameEmotion.Text = "Produce a SAD EXPRESSION";
+            }
+            else if (testEmotion == "Surprise")
+            {
+                gameEmotion.Text = "Produce a SURPRISED EXPRESSION";
+            }
+            else
+            {
+                gameEmotion.Text = "Produce a NEUTRAL EXPRESSION";
+            }
         }
     }
 }
