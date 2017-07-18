@@ -2,6 +2,13 @@
 using Plugin.Media.Abstractions;
 using System;
 using Xamarin.Forms;
+using System.Linq;
+using System.Threading.Tasks;
+
+using Microsoft.ProjectOxford.Emotion;
+using Microsoft.ProjectOxford.Emotion.Contract;
+
+
 
 namespace Game
 {
@@ -37,7 +44,22 @@ namespace Game
                 return file.GetStream();
             });
 
-            file.Dispose();
+            await EmotionPrediction(file);
+        }
+
+        async Task EmotionPrediction(MediaFile file)
+        {
+            var emotionClient = new EmotionServiceClient("fb7d6aa16e9f477fa1b1e2e61f5f5678");
+
+            using (var photoStream = file.GetStream())
+            {
+                Emotion[] emotionResult = await emotionClient.RecognizeAsync(photoStream);
+                if (emotionResult.Any())
+                {
+                    topEmotionLabel.Text = emotionResult.FirstOrDefault().Scores.ToRankedList().FirstOrDefault().Key;
+                }
+            }
+
         }
     }
 }

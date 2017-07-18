@@ -5,9 +5,10 @@
              x:Class="Game.MainPage">
     <ScrollView>
         <StackLayout Margin="20" Orientation="Vertical">
-        <Button Text="Take Photo and Analyze" Clicked="loadCamera" />
-        <Image x:Name="image" />
-    </StackLayout>
+            <Button Text="Take Photo and Analyze" Clicked="loadCamera" />
+            <Image x:Name="image" />
+            <Label x:Name="topEmotionLabel"/>
+        </StackLayout>
     </ScrollView>
 
 </ContentPage>
