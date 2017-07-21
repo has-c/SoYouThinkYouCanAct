@@ -1,3 +1,7 @@
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Android.Support.v7.Palette.dll
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Forms.Core.pdb
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Game.Android.dll.config
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Game.Android.dll
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Game.Android.pdb
@@ -20,7 +24,6 @@ C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Android.Sup
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Android.Support.Compat.dll
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Android.Support.Core.UI.dll
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
-C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Android.Support.Design.dll
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Android.Support.Fragment.dll
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Android.Support.Transition.dll
@@ -28,8 +31,6 @@ C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Android.Sup
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
-C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Android.Support.v7.Palette.dll
-C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Forms.Core.dll
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
@@ -53,7 +54,6 @@ C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Plugin.Permissions.
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Plugin.Permissions.Abstractions.xml
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\System.Net.Http.Extensions.xml
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\System.Net.Http.Primitives.xml
-C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Forms.Core.pdb
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Forms.Core.xml
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
@@ -101,3 +101,22 @@ C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\android\assets\Plug
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\dda502ec.proguard.stamp
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\proguard\a35ed7280.txt
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\a35ed728.proguard.stamp
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\66b78e27.proguard.stamp
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\60bb5a27.proguard.stamp
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\fab25ab7.proguard.stamp
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\9d822774.proguard.stamp
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\5379ba9d.proguard.stamp
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\3d49bfb2.proguard.stamp
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\2da19e7d.proguard.stamp
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\proguard\b76e0d310.txt
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\b76e0d31.proguard.stamp
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\f291fecb.proguard.stamp
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\proguard\8f1de9cb0.txt
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\8f1de9cb.proguard.stamp
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\6ce5e490.proguard.stamp
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\proguard\acdd43380.txt
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\acdd4338.proguard.stamp
+C:\Users\hasna\Desktop\Game\Game\Game\Game.Android\obj\Debug\XbdMerge\c2195535.proguard.stamp

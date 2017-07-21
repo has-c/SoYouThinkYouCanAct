@@ -34,5 +34,7 @@ C:\Users\hasna\Desktop\Game\Game\Game\Game\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\hasna\Desktop\Game\Game\Game\Game\obj\Debug\Game.csproj.App.config
 C:\Users\hasna\Desktop\Game\Game\Game\Game\obj\Debug\Game.MainPage.xaml.g.cs
 C:\Users\hasna\Desktop\Game\Game\Game\Game\obj\Debug\Game.App.xaml.g.cs
+C:\Users\hasna\Desktop\Game\Game\Game\Game\obj\Debug\Game.GamePage.xaml.g.cs
+C:\Users\hasna\Desktop\Game\Game\Game\Game\obj\Debug\Game.Rules.xaml.g.cs
 C:\Users\hasna\Desktop\Game\Game\Game\Game\obj\Debug\Game.dll
 C:\Users\hasna\Desktop\Game\Game\Game\Game\obj\Debug\Game.pdb
