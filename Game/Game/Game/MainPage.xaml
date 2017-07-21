@@ -8,7 +8,11 @@
             <Label x:Name="gameEmotion"/>
             <Button Text="Take Photo and Analyze" Clicked="loadCamera" />
             <Image x:Name="image" />
+           
             <Label x:Name="topEmotionLabel"/>
+            <Label x:Name="decisionLabel"/>
+
+
         </StackLayout>
     </ScrollView>
 

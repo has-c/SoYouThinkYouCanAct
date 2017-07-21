@@ -16,8 +16,11 @@ namespace Game
         public MainPage()
         {
             InitializeComponent();
-            emotionSelection();
+            RandomEmotionGenerator();
         }
+
+        
+
 
         private async void loadCamera(object sender, EventArgs e)
         {
@@ -45,11 +48,16 @@ namespace Game
             });
 
 
-
             await EmotionPrediction(file);
+            DecisionRequest();
         }
 
-        async Task EmotionPrediction(MediaFile file)
+
+
+
+
+
+        public async Task EmotionPrediction(MediaFile file)
         {
             var emotionClient = new EmotionServiceClient("fb7d6aa16e9f477fa1b1e2e61f5f5678");
 
@@ -58,59 +66,51 @@ namespace Game
                 Emotion[] emotionResult = await emotionClient.RecognizeAsync(photoStream);
                 if (emotionResult.Any())
                 {
-                    topEmotionLabel.Text = emotionResult.FirstOrDefault().Scores.ToRankedList().FirstOrDefault().Key;
+                    string actualEmotion = emotionResult.FirstOrDefault().Scores.ToRankedList().FirstOrDefault().Key;
+                    Globals.realEmotion = actualEmotion;
+                    topEmotionLabel.Text = "Emotion: " + actualEmotion;
+                    
                 }
             }
 
+            
         }
 
-        public string RandomEmotionGenerator()
+
+        public void RandomEmotionGenerator()
         {
-            List<String> allEmotions = new List<string>(new string[] { "Anger", "Contempt", "Disgust", "Fear", "Happiness", "Sadness", "Surprise", "Neutral" });
+          List<String> allEmotions = new List<string>(new string[] { "Anger", "Contempt", "Disgust", "Fear", "Happiness", "Sadness", "Surprise", "Neutral" });
 
             Random random = new Random();
             int randomNumber = random.Next(0, 8);
-            string testEmotion = allEmotions.ElementAt(randomNumber);
-            return testEmotion;
+            string chosenEmotion = allEmotions.ElementAt(randomNumber);
+            Globals.refEmotion = chosenEmotion;
+            gameEmotion.Text = "Produce an expression of " + chosenEmotion.ToUpper();
         }
 
-        public void emotionSelection()
+        public  class Globals
         {
-            string testEmotion = RandomEmotionGenerator();
+            public static string refEmotion = null;
+            public static string realEmotion = null;
+        }
 
-            if (testEmotion == "Anger")
+        public void DecisionRequest()
+        {
+            if (Globals.refEmotion == Globals.realEmotion)
             {
-                gameEmotion.Text = "Produce an ANGRY EXPRESSION";
-            }
-            else if (testEmotion == "Contempt")
-            {
-                gameEmotion.Text = "Produce a CONTEMPTIBLE EXPRESSION";
-            }
-            else if (testEmotion == "Disgust")
-            {
-                gameEmotion.Text = "Produce a DIGUSTED EXPRESSION";
-            }
-            else if (testEmotion == "Fear")
-            {
-                gameEmotion.Text = "Produce a FEARFUL EXPRESSION";
-            }
-            else if (testEmotion == "Happiness")
-            {
-                gameEmotion.Text = "Produce a HAPPY EXPRESSION";
-            }
-            else if (testEmotion == "Sadness")
-            {
-                gameEmotion.Text = "Produce a SAD EXPRESSION";
-            }
-            else if (testEmotion == "Surprise")
-            {
-                gameEmotion.Text = "Produce a SURPRISED EXPRESSION";
+                decisionLabel.Text = "yes";
             }
             else
             {
-                gameEmotion.Text = "Produce a NEUTRAL EXPRESSION";
+                decisionLabel.Text = "no";
+
             }
         }
     }
+
+    
+
 }
- 
+
+
+       
