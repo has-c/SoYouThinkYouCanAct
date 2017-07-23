@@ -1,4 +1,4 @@
-# Game
+# SoYouThinkYouCanAct
 
-Game based around the Emotion API. EasyTable is used to save the game scores.
+SoYouThinkYouCanAct is a game based around the Emotion API. 
 
