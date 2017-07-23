@@ -11,7 +11,7 @@
 namespace SYTUCA {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\hasna\\Desktop\\SYTUCA\\SYTUCA\\SYTUCA\\GamePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\hasna\\Desktop\\Game\\Game\\SYTUCA\\SYTUCA\\GamePage.xaml")]
     public partial class GamePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

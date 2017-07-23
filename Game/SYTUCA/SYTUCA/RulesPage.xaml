@@ -2,12 +2,24 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SYTUCA.RulesPage">
-    <StackLayout>
-        <Label Text="Rules"/>
-        <Button Text="Play The Game" Clicked="PlayGame"/>
+    <StackLayout Padding="20">
+        <Label Text="Rules of the Game" HorizontalOptions="Center" FontSize="Large" />
+        <Label/>
+        <Label/>
+        <Label HorizontalOptions="Center" 
+               Text="Take a selfie producing the facial features of the emotion as stated."/>
+        <Label HorizontalOptions="Center" 
+               Text= "Each time the face you make is correct you get a point."/>
+        <Label HorizontalOptions="Center" 
+               Text= "However since you're such a good actor, one wrong expression means GAME OVER."/>
+        <Label/>
+        <Label/>
+        <Label HorizontalOptions= "Center" 
+               Text="GOODLUCK" FontSize="Large"/>
+        <Button Text="Play The Game" Clicked="PlayGame" VerticalOptions="EndAndExpand"/>
 
     </StackLayout>
     
 
 </ContentPage>
-    
+     

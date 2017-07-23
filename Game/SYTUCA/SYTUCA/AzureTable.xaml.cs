@@ -24,5 +24,7 @@ namespace SYTUCA
 
             ScoreList.ItemsSource = scoreModel;
         }
+
+        
     }
 }

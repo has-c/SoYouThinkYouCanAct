@@ -11,7 +11,7 @@
     <provider android:name="android.support.v4.content.FileProvider" android:authorities="com.yourcompany.SYTUCA.fileprovider" android:exported="false" android:grantUriPermissions="true">
       <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
     </provider>
-    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="SYTUCA" android:theme="@style/MainTheme" android:name="md5afbcca5276146020662134ca73a475d0.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="SoYouThinkYouCanAct" android:theme="@style/MainTheme" android:name="md5afbcca5276146020662134ca73a475d0.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

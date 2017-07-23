@@ -6,8 +6,8 @@
              Title="Play The Game">
     <ScrollView>
         <StackLayout Padding ="20" Orientation="Vertical">
-            <Label x:Name="gameEmotion"/>
-            <Button Text="Take Photo and Analyze" Clicked="loadCamera" />
+            <Label x:Name="gameEmotion" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>
+            <Button Text="Take Photo" Clicked="loadCamera" BackgroundColor="Red" TextColor="White"/>
             <Image x:Name="image" HorizontalOptions="Center"/>
 
             <Label x:Name="topEmotionLabel" HorizontalOptions="Center"/>

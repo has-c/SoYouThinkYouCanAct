@@ -28728,23 +28728,23 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\hasna\\Desktop\\SYTUCA\\SYTUCA\\SYTUCA.UWP\\SYTUCA.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\hasna\\Desktop\\Game\\Game\\SYTUCA\\SYTUCA.UWP\\SYTUCA.UWP.csproj",
       "projectName": "SYTUCA.UWP",
-      "projectPath": "C:\\Users\\hasna\\Desktop\\SYTUCA\\SYTUCA\\SYTUCA.UWP\\SYTUCA.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\hasna\\Desktop\\SYTUCA\\SYTUCA\\SYTUCA.UWP\\project.json",
+      "projectPath": "C:\\Users\\hasna\\Desktop\\Game\\Game\\SYTUCA\\SYTUCA.UWP\\SYTUCA.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\hasna\\Desktop\\Game\\Game\\SYTUCA\\SYTUCA.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "C:\\Users\\hasna\\Desktop\\SYTUCA\\SYTUCA\\SYTUCA\\SYTUCA.csproj": {
-              "projectPath": "C:\\Users\\hasna\\Desktop\\SYTUCA\\SYTUCA\\SYTUCA\\SYTUCA.csproj"
+            "C:\\Users\\hasna\\Desktop\\Game\\Game\\SYTUCA\\SYTUCA\\SYTUCA.csproj": {
+              "projectPath": "C:\\Users\\hasna\\Desktop\\Game\\Game\\SYTUCA\\SYTUCA\\SYTUCA.csproj"
             }
           }
         }
       }
     },
     "dependencies": {
-      "Microsoft.Azure.Mobile.Client": "[3.1.0, )",
+      "Microsoft.Azure.Mobile.Client": "3.1.0",
       "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.0.1",
       "Microsoft.Bcl": "1.1.10",
       "Microsoft.Bcl.Build": "1.0.21",

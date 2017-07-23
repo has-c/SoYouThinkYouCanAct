@@ -22,7 +22,7 @@ namespace SYTUCA
         public async void beginAnimation()
         {
             image.Opacity = 1;
-            await image.FadeTo(0, 6000);
+            await image.FadeTo(0, 5000);
             await NavigateToDecisionPage();
         }
 

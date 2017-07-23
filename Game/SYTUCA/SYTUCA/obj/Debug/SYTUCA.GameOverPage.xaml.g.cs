@@ -11,7 +11,7 @@
 namespace SYTUCA {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\hasna\\Desktop\\SYTUCA\\SYTUCA\\SYTUCA\\GameOverPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\hasna\\Desktop\\Game\\Game\\SYTUCA\\SYTUCA\\GameOverPage.xaml")]
     public partial class GameOverPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

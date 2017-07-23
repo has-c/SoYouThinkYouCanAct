@@ -19,7 +19,7 @@ namespace SYTUCA
         public async void startAnimation()
         {
             picture.Opacity = 0;
-            await picture.FadeTo(1, 4000);
+            await picture.FadeTo(1, 5000);
             await NavigationRequestAsync();
         }
 
